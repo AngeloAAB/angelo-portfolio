@@ -190,8 +190,8 @@ section {
 
 /* Placeholder photo */
 .about-photo .photo-placeholder {
-    width: 282px;
-    height: 360px;
+    width: 270px;
+    height: 270px;
     background-color: #e0e0e0;
     border-radius: 12px;
     display: flex;
@@ -212,6 +212,12 @@ section {
     .about-photo .photo-placeholder {
         margin-top: 20px;
     }
+}
+
+.about-photo img {
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
 }
 
 /* ------------------------------
